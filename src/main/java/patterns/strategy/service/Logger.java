@@ -1,6 +1,6 @@
-package solution.bank.service;
+package patterns.strategy.service;
 
-import solution.bank.domain.Account;
+import patterns.strategy.domain.Account;
 
 public class Logger implements AccountObserver {
 

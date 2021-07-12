@@ -1,13 +1,13 @@
-package solution.bank;
+package patterns.strategy;
 
 import java.util.Collection;
-import solution.bank.domain.Account;
-import solution.bank.domain.AccountEntry;
-import solution.bank.domain.Customer;
-import solution.bank.service.AccountService;
-import solution.bank.service.EmailSender;
-import solution.bank.service.Logger;
-import solution.bank.service.SMSSender;
+import patterns.strategy.domain.Account;
+import patterns.strategy.domain.AccountEntry;
+import patterns.strategy.domain.Customer;
+import patterns.strategy.service.AccountService;
+import patterns.strategy.service.EmailSender;
+import patterns.strategy.service.Logger;
+import patterns.strategy.service.SMSSender;
 
 public class Application {
 
@@ -28,6 +28,7 @@ public class Application {
     // create 2 accounts;
     accountService.createAccount(1263862, "Frank Brown");
     accountService.createAccount(4253892, "John Doe");
+
     //use account 1;
     accountService.deposit(1263862, 240);
     accountService.deposit(1263862, 529);

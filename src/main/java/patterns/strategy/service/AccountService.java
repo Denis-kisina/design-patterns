@@ -1,10 +1,10 @@
-package solution.bank.service;
+package patterns.strategy.service;
 
 import java.util.Collection;
-import solution.bank.dao.AccountDAO;
-import solution.bank.dao.IAccountDAO;
-import solution.bank.domain.Account;
-import solution.bank.domain.Customer;
+import patterns.strategy.dao.AccountDAO;
+import patterns.strategy.dao.IAccountDAO;
+import patterns.strategy.domain.Account;
+import patterns.strategy.domain.Customer;
 
 public class AccountService extends AccountSubject implements IAccountService {
 

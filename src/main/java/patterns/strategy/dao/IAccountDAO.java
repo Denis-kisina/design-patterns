@@ -1,7 +1,7 @@
-package solution.bank.dao;
+package patterns.strategy.dao;
 
 import java.util.Collection;
-import solution.bank.domain.Account;
+import patterns.strategy.domain.Account;
 
 public interface IAccountDAO {
 	void saveAccount(Account account);

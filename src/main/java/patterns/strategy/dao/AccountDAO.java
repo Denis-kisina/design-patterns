@@ -1,8 +1,8 @@
-package solution.bank.dao;
+package patterns.strategy.dao;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import solution.bank.domain.Account;
+import patterns.strategy.domain.Account;
 
 public class AccountDAO implements IAccountDAO {
 	Collection<Account> accountlist = new ArrayList<Account>();

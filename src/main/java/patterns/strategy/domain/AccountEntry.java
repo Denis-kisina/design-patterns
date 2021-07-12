@@ -1,4 +1,4 @@
-package solution.bank.domain;
+package patterns.strategy.domain;
 
 import java.util.Date;
 

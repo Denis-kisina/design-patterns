@@ -1,8 +1,8 @@
-package solution.bank.service;
+package patterns.strategy.service;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import solution.bank.domain.Account;
+import patterns.strategy.domain.Account;
 
 public class AccountSubject {
 

@@ -1,7 +1,7 @@
-package solution.bank.service;
+package patterns.strategy.service;
 
 import java.util.Collection;
-import solution.bank.domain.Account;
+import patterns.strategy.domain.Account;
 
 public interface IAccountService {
     Account createAccount(long accountNumber, String customerName);
