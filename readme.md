@@ -1,4 +1,11 @@
-# Strategy Pattern
+# Design Patterns Demo
 
-![Strategy pattern class diagram](src/main/java/patterns/class-diagram/strategy-pattern.png?raw=true)
+* Composite
+* Filter
+* Iterator
+* Strategy
+* Factory
 
+# Stack
+* Spring Boot
+* Maven
