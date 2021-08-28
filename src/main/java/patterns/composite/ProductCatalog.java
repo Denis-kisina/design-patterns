@@ -3,7 +3,7 @@ package patterns.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductCatalog extends Catalog {
+class ProductCatalog extends Catalog {
 
   private final String categoryName;
   private final List<Catalog> catalogs;

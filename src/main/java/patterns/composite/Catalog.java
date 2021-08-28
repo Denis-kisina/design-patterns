@@ -1,6 +1,6 @@
 package patterns.composite;
 
-public abstract class Catalog {
+abstract class Catalog {
 
   public void add(Catalog catalog) {
     throw new UnsupportedOperationException("Can not return name");

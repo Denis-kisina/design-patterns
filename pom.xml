@@ -4,19 +4,50 @@
   <groupId>designpatterns</groupId>
   <artifactId>patterns-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
   <build>
     <plugins>
       <plugin>
         <artifactId>
           maven-compiler-plugin
         </artifactId>
-        <version>3.1</version>
+        <version>3.8.1</version>
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
           <encoding>UTF-8</encoding>
         </configuration>
       </plugin>
+
+      <plugin>
+        <groupId>io.github.crizzis</groupId>
+        <artifactId>codenarc-maven-plugin</artifactId>
+        <version>0.1</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>verify</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <maxPriority1Violations>2</maxPriority1Violations>
+          <maxPriority2Violations>3</maxPriority2Violations>
+          <maxPriority3Violations>1</maxPriority3Violations>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
+
+  <reporting>
+    <plugins>
+
+      <plugin>
+        <groupId>io.github.crizzis</groupId>
+        <artifactId>codenarc-maven-plugin</artifactId>
+        <version>0.1</version>
+      </plugin>
+    </plugins>
+  </reporting>
+
 </project>
