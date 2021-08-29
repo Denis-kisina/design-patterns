@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7fe8dd63-ee83-4643-b29c-dc4c07381cae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/composite/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/composite/Catalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/composite/ProductCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/patterns/composite/ProductCatalog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,8 @@
       <workItem from="1630067959746" duration="145000" />
       <workItem from="1630068124177" duration="303000" />
       <workItem from="1630068476218" duration="2581000" />
+      <workItem from="1630129935130" duration="226000" />
+      <workItem from="1630150193306" duration="706000" />
     </task>
     <servers />
   </component>
@@ -62,5 +61,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
