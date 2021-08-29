@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fe8dd63-ee83-4643-b29c-dc4c07381cae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/singleton/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/singleton/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/singleton/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/singleton/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/singleton/ProductDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +17,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitRewordedCommitMessages">
     <option name="onto" value="e9224eaaaebfd45b9099d26613418e8a018f0cd1" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1xJKsU98UYOMDZ58SSwboW9RlC0" />
   <component name="ProjectViewState">
@@ -32,6 +52,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="patterns.singleton" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +69,7 @@
       <workItem from="1630068124177" duration="303000" />
       <workItem from="1630068476218" duration="2581000" />
       <workItem from="1630129935130" duration="226000" />
-      <workItem from="1630150193306" duration="2287000" />
+      <workItem from="1630150193306" duration="4007000" />
     </task>
     <servers />
   </component>
